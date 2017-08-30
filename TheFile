@@ -1,0 +1,19 @@
+class Hero(object):
+    
+    def __init__(self,name,SAI,melran):
+        self.name = name
+        self.SAI = SAI
+        self.melran = melran
+        
+    def description(self):
+        print "Name:", self.name
+        print "     ", self.SAI
+        print "     ", self.melran
+        
+Pudge = Hero("Pudge", "Strength","Melee") 
+
+Sniper = Hero("Sniper","Agility","Ranged")
+
+
+Pudge.description()
+Sniper.description()
